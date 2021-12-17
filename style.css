@@ -1,0 +1,58 @@
+ body {
+        display:grid;
+        align-content: center;
+        flex-direction:row;
+        flex-flow: column-reverse;
+        background-origin: padding-box;
+        background-color: rgb(207, 88, 231);
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0.5px;
+        position: center;
+}
+h1 {
+        color:rgb(62, 20, 148);
+        font-size: 2em;
+        margin: 0.5em 0 0 0;
+        padding: 0;
+        font-family:'Franklin Gothic Medium';
+        position: center;
+}
+h2 {
+        color: rgb(49, 3, 71);
+        font-size: 2em;
+        font-family: fantasy;
+        padding: 0;
+        margin: 0;
+        position: center;
+}
+
+
+.main {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        position:center;
+        text-align: center;
+}
+.header {
+        background-color: maroon;
+        margin-top: inherit;
+        position: relative;
+        background-origin: padding-box;
+        text-align: center;
+}
+.nav {
+        position: top, center, fixed;
+        font-style: italic;
+        margin: 0px;
+}
+.panel {
+        display:table-cell;
+        flex-direction: row-reverse;
+}
+.button {
+        color: blueviolet;
+        shape-outside: content-box;
+
+}
